@@ -1,0 +1,77 @@
+# Introducción a la Terminal
+
+En Linux (Ubuntu), que es el sistema operativo que tienes instalado, se utiliza mucho la terminal,
+debido a que es más eficiente al realizar unas tareas y permite hacer cosas que no puedes hacer
+solamente haciendo click.
+
+En la terminal se manejan las cosas como carpetas y archivos como si fuese un árbol
+# Carpeta = Rama
+# Arvhivo = Hoja
+
+Una carpeta puede tener más carpetas
+Una rama se puede dividir en dos o más ramas
+
+Una carpeta tiene archivos
+Al final de una rama pueden haber hojas
+
+# CARPETA PERSONAL
+Cuando abres una terminal te ubicará en tu carpeta personal 
+(siguiendo la analogía del arbol, tu carpeta personal sería el tronco)
+
+Esta carpeta la carpeta de Escritorio, el escritorio es una buena carpeta para prácticar comandos
+porque los verás en el escritorio de forma inmediata
+----------------------------------------------------------------------------------------------
+
+# Comandos
+En la terminal todo se maneja con comandos
+tu usualmente no necesitaras comandos muy avanzados
+esta es la lista que creo que te servirá
+
+
+ls 
+# Muestra los archivos y carpetas en la carpeta actual
+
+
+cd [nombre de la carpeta]
+# Cambia el directorio (o carpeta en la que se encuentra)
+# ej:
+# cd Escritorio
+# cd .. (este comando retocede un directorio)
+# "Si ejecutas cd sin especificar el directorio te enviará directamente a la Carpeta Personal"
+
+
+mkdir [nombre de la carpeta]
+# crea una carpeta en el directorio actual
+# intentalo en la carpeta escritorio
+
+
+rmdir [nombre de la carpeta]
+# Elimina una carpeta VACIA
+# si la carpeta que se intenta eliminar contiene algo, no se podrá eliminar
+
+
+rm [nombre de archivo]
+# Elimina un archivo
+# El nombre del archivo que indiques debe estar escrito exactamente igual
+
+
+rm -R [nombre de la carpeta]
+# Elimina una carpeta que contenga algo dentro
+
+----------------------------------------------------------------------------------------------
+
+# Programas de Terminal
+
+Con Ubuntu vienen instalados algunos programa que se ejecutan desde la terminal como:
+# nano (un editor de texto plano)
+para abrir un archivo de texto con nano ejecutas en la terminal
+nano [nombre del archivo]
+si quisiera abrir este archivo con nano ejecutarias:
+	nano 2-terminal.txt
+ahora abre todos los archivos de texto en esta carpeta con nano
+
+Tambien existen programas que se pueden instalar como
+# git (Un administrador de control de versiones)
+(no ejecutes git sin preguntarme primero)
+# neofetch: muestra información del equipo
+y un pocotón más

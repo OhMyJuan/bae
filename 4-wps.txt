@@ -1,0 +1,75 @@
+Instalar WPS
+# PASO 1: Descargar la carpeta "carol's config" (¡¡ESTA CARPETA!!)
+
+# PASO 2: Verificar que existe el archivo de instalación de WPS
+	# Ejecutar comando ls y verificar que exista el archivo con nombre:
+	wps-office_11.1.0.11664.XA_amd64.deb
+
+# PASO 3: Instalar WPS con el comando:
+	sudo dpkg -i wps-office_11.1.0.11664.XA_amd64.deb
+	# Esto te pedirá que escribas tu contraseña de usuario
+	# cuando la escribas parecerá que no estás escribiendo
+	# si te equivocas solamente te pedirá que la ingreses de nuevo
+	# no se te bloqueará nada (deja el miedo)
+
+	# Después que ingreses la contraseña (bien) se instalará demorará un ratito
+
+# Paso 4: Verifica que se instaló WPS y te salga en el menú
+	# Presiona la tecla windows y escribe wps y ya
+
+	# si te salen, las aplicaciones ya lo instalaste wiii
+	# si no te sale, algo hiciste mal rebiza los pasos
+
+
+Configurar Idioma de WPS
+
+* Por defecto no se puede cambiar el idioma a español pero en esta carpeta tambien está esa configuración
+* En esta carpeta hay 2 carpetas:	"/mui"		"/spellcheck"
+
+* Estos pasos los puedes hacer en el explorador de archivos (porque que pereza explicar como mover archivos de esta forma) 
+
+# Paso 1: abrir el explorador de archivos
+
+# Paso 2: mostrar las carpetas ocultas (Ctrl + H)
+
+# Paso 3: Busca y entra a la carpeta que se llama:
+	office6
+	# No, no te va a aparecer en la carpeta donde estás tienes que ir a:
+	+ Otras Ubicaciones (que está en el panel de la derecha)
+	# Y sigue esta ruta:
+	opt	/	kingsoft	/	wps-office	/	office6
+
+# Paso... Relajate que no estas rompiendo nada... Paso 4:
+	# Abre una terminal en esa carpeta (office6)
+	Presiona click derecho ... no sobre ninguna carpeta o archivo, en un espacio vacio
+	Toca "Abrir en una Terminal"
+	# Se te debe abrir una terminal en la carpeta office6
+
+# Paso 5: Proporsionar permisos para crear y eliminar archivos dentro de las carpetas en esa dirección
+	# ...
+	# in ispiñil... solo es para que puedas hacer cosas en la carpeta
+	# ejecutas este comando:
+	sudo chmod o+w . -R
+	# tambien te pedirá que escribas tu contraseña
+
+	# creo que ya puedes cerrar la terminal
+
+# Paso 6: Agregar la configuración de idioma español
+	En la carpeta "carol's config" entra a la carpeta "mui"
+	copia TODAS LAS CARPETAS:
+		- es_ES
+		- es_MX
+	a la carpeta "mui" de "office6"
+
+	y ya
+
+# Paso 7: Configurar diccionario de español
+	* En la carpeta "office6" entra a:
+		/	dicts	/	spellcheck	/
+	
+	* En esa carpeta spellcheck BORRAS TODO
+	
+	* Copia lo que hay en la carpeta spellcheck de "carol's config" a la carpeta spellcheck en la que ya debista haber eliminado todo
+
+
+Y ya tienes WPS instalado y en español

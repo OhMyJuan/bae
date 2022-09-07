@@ -1,0 +1,23 @@
+Para consultar todos los atajos de teclados:
+# Presionas la tecla de windows y escribes
+atajo
+# presionas enter se te abrirá la configuracion de teclado vas hasta la parte de abajo hasta la 
+# seccion de Atajos de teclado
+
+# dentro de esta buscas la que dice:
+Carpeta Personal
+
+# La seleccionas y pones el atajo de teclado que quieras, usualmente es
+Super + E
+# Super es la tecla de windows
+# Cuando ya lo tengas presionas establecer y ya
+# Si quieres agregar otro atajo ya sabes donde están
+
+
+# Atajos:
+-Abrir Terminal:			Ctrl + Alt + R
+-Abrir Explorador de archivos:		Super + E
+-Navegar entre ventanas abiertas:	Ctrl + Alt	(<- | ->)
+-Todos los programas:			Super + A
+
+cualquier cosa me preguntas.

@@ -1,0 +1,9 @@
+Desinstalar Libre Office
+
+# Paso 1: Abrir una terminal
+
+# Paso 2: Ejecutar el comando:
+	sudo apt purge libreoffice*
+	# Te pedirá contraseña
+
+cuando termine ya no debes tener instalado Libre Office
