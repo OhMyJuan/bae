@@ -8,9 +8,10 @@ git clone https://github.com/OhMyJuan/bae.git
 cd bae
 ```
 
-## 2- Descarga el instalador de WPS en esta dirección:
-[WPS Installer](https://www.wps.com/office/linux/)
-Selecciona el Deb Package
+## 2- Descarga el instalador de WPS:
+[WPS Installer](https://www.wps.com/office/linux/).
+
+Seleccionas el Deb Package.
 
 ## Pasos:
 Dentro de la carpeta hay archivos de textos enumerados, debes leerlos en orden y hacer lo que dice cada uno
